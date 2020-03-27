@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F59EF44242DF6F1004A3032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59EF43242DF6F1004A3032 /* AppDelegate.swift */; };
+		1F59EF46242DF6F1004A3032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59EF45242DF6F1004A3032 /* SceneDelegate.swift */; };
+		1F59EF48242DF6F1004A3032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59EF47242DF6F1004A3032 /* ViewController.swift */; };
+		1F59EF4B242DF6F1004A3032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F59EF49242DF6F1004A3032 /* Main.storyboard */; };
+		1F59EF4D242DF6F1004A3032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F59EF4C242DF6F1004A3032 /* Assets.xcassets */; };
+		1F59EF50242DF6F1004A3032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F59EF4E242DF6F1004A3032 /* LaunchScreen.storyboard */; };
+		1F59EF5B242DF6F2004A3032 /* PhotoCellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59EF5A242DF6F2004A3032 /* PhotoCellsTests.swift */; };
+		1F59EF66242DF6F2004A3032 /* PhotoCellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59EF65242DF6F2004A3032 /* PhotoCellsUITests.swift */; };
+		938794AF80182F346C19F710 /* Pods_PhotoCellsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426E37B5119B03882DB4E3D4 /* Pods_PhotoCellsTests.framework */; };
+		A4E44A070212715D802BA5D2 /* Pods_PhotoCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9601A2F55C67ACCC14111D2F /* Pods_PhotoCells.framework */; };
+		E3E67E2C2EFF5180D87E6122 /* Pods_PhotoCells_PhotoCellsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B851BD1F2AA5B0D5B172CA6 /* Pods_PhotoCells_PhotoCellsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F59EF57242DF6F2004A3032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F59EF38242DF6F1004A3032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F59EF3F242DF6F1004A3032;
+			remoteInfo = PhotoCells;
+		};
+		1F59EF62242DF6F2004A3032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F59EF38242DF6F1004A3032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F59EF3F242DF6F1004A3032;
+			remoteInfo = PhotoCells;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A1B6FC8761A1BBEB33C84A /* Pods-PhotoCellsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoCellsTests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoCellsTests/Pods-PhotoCellsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F59EF40242DF6F1004A3032 /* PhotoCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F59EF43242DF6F1004A3032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F59EF45242DF6F1004A3032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F59EF47242DF6F1004A3032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F59EF4A242DF6F1004A3032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F59EF4C242DF6F1004A3032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F59EF4F242DF6F1004A3032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F59EF51242DF6F1004A3032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F59EF56242DF6F2004A3032 /* PhotoCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F59EF5A242DF6F2004A3032 /* PhotoCellsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCellsTests.swift; sourceTree = "<group>"; };
+		1F59EF5C242DF6F2004A3032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F59EF61242DF6F2004A3032 /* PhotoCellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F59EF65242DF6F2004A3032 /* PhotoCellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCellsUITests.swift; sourceTree = "<group>"; };
+		1F59EF67242DF6F2004A3032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B851BD1F2AA5B0D5B172CA6 /* Pods_PhotoCells_PhotoCellsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoCells_PhotoCellsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426E37B5119B03882DB4E3D4 /* Pods_PhotoCellsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoCellsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFF10C2D6D3BD2F3B2273EC /* Pods-PhotoCells-PhotoCellsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoCells-PhotoCellsUITests.release.xcconfig"; path = "Target Support Files/Pods-PhotoCells-PhotoCellsUITests/Pods-PhotoCells-PhotoCellsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9601A2F55C67ACCC14111D2F /* Pods_PhotoCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF20A4E2680C75A558198927 /* Pods-PhotoCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoCells.debug.xcconfig"; path = "Target Support Files/Pods-PhotoCells/Pods-PhotoCells.debug.xcconfig"; sourceTree = "<group>"; };
+		B770C4C83569FDC5E6C3BE9E /* Pods-PhotoCells-PhotoCellsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoCells-PhotoCellsUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoCells-PhotoCellsUITests/Pods-PhotoCells-PhotoCellsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF0127A3A0CC714678603902 /* Pods-PhotoCellsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoCellsTests.release.xcconfig"; path = "Target Support Files/Pods-PhotoCellsTests/Pods-PhotoCellsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9A9010979E4EA4F69E40204 /* Pods-PhotoCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoCells.release.xcconfig"; path = "Target Support Files/Pods-PhotoCells/Pods-PhotoCells.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F59EF3D242DF6F1004A3032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E44A070212715D802BA5D2 /* Pods_PhotoCells.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F59EF53242DF6F2004A3032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938794AF80182F346C19F710 /* Pods_PhotoCellsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F59EF5E242DF6F2004A3032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E67E2C2EFF5180D87E6122 /* Pods_PhotoCells_PhotoCellsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F59EF37242DF6F1004A3032 = {
+			isa = PBXGroup;
+			children = (
+				1F59EF42242DF6F1004A3032 /* PhotoCells */,
+				1F59EF59242DF6F2004A3032 /* PhotoCellsTests */,
+				1F59EF64242DF6F2004A3032 /* PhotoCellsUITests */,
+				1F59EF41242DF6F1004A3032 /* Products */,
+				E8A2837701AC55B09EC32E62 /* Pods */,
+				2A298F289D07869DF340D25B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F59EF41242DF6F1004A3032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F59EF40242DF6F1004A3032 /* PhotoCells.app */,
+				1F59EF56242DF6F2004A3032 /* PhotoCellsTests.xctest */,
+				1F59EF61242DF6F2004A3032 /* PhotoCellsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F59EF42242DF6F1004A3032 /* PhotoCells */ = {
+			isa = PBXGroup;
+			children = (
+				1F59EF43242DF6F1004A3032 /* AppDelegate.swift */,
+				1F59EF45242DF6F1004A3032 /* SceneDelegate.swift */,
+				1F59EF47242DF6F1004A3032 /* ViewController.swift */,
+				1F59EF49242DF6F1004A3032 /* Main.storyboard */,
+				1F59EF4C242DF6F1004A3032 /* Assets.xcassets */,
+				1F59EF4E242DF6F1004A3032 /* LaunchScreen.storyboard */,
+				1F59EF51242DF6F1004A3032 /* Info.plist */,
+			);
+			path = PhotoCells;
+			sourceTree = "<group>";
+		};
+		1F59EF59242DF6F2004A3032 /* PhotoCellsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F59EF5A242DF6F2004A3032 /* PhotoCellsTests.swift */,
+				1F59EF5C242DF6F2004A3032 /* Info.plist */,
+			);
+			path = PhotoCellsTests;
+			sourceTree = "<group>";
+		};
+		1F59EF64242DF6F2004A3032 /* PhotoCellsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F59EF65242DF6F2004A3032 /* PhotoCellsUITests.swift */,
+				1F59EF67242DF6F2004A3032 /* Info.plist */,
+			);
+			path = PhotoCellsUITests;
+			sourceTree = "<group>";
+		};
+		2A298F289D07869DF340D25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9601A2F55C67ACCC14111D2F /* Pods_PhotoCells.framework */,
+				3B851BD1F2AA5B0D5B172CA6 /* Pods_PhotoCells_PhotoCellsUITests.framework */,
+				426E37B5119B03882DB4E3D4 /* Pods_PhotoCellsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8A2837701AC55B09EC32E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF20A4E2680C75A558198927 /* Pods-PhotoCells.debug.xcconfig */,
+				C9A9010979E4EA4F69E40204 /* Pods-PhotoCells.release.xcconfig */,
+				B770C4C83569FDC5E6C3BE9E /* Pods-PhotoCells-PhotoCellsUITests.debug.xcconfig */,
+				8EFF10C2D6D3BD2F3B2273EC /* Pods-PhotoCells-PhotoCellsUITests.release.xcconfig */,
+				13A1B6FC8761A1BBEB33C84A /* Pods-PhotoCellsTests.debug.xcconfig */,
+				BF0127A3A0CC714678603902 /* Pods-PhotoCellsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F59EF3F242DF6F1004A3032 /* PhotoCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F59EF6A242DF6F2004A3032 /* Build configuration list for PBXNativeTarget "PhotoCells" */;
+			buildPhases = (
+				1FC40A123EDD2B22BBD013E5 /* [CP] Check Pods Manifest.lock */,
+				1F59EF3C242DF6F1004A3032 /* Sources */,
+				1F59EF3D242DF6F1004A3032 /* Frameworks */,
+				1F59EF3E242DF6F1004A3032 /* Resources */,
+				B5EB7E0155D9D4529359E50B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoCells;
+			productName = PhotoCells;
+			productReference = 1F59EF40242DF6F1004A3032 /* PhotoCells.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F59EF55242DF6F2004A3032 /* PhotoCellsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F59EF6D242DF6F2004A3032 /* Build configuration list for PBXNativeTarget "PhotoCellsTests" */;
+			buildPhases = (
+				94045FA690FFB184392E7DE6 /* [CP] Check Pods Manifest.lock */,
+				1F59EF52242DF6F2004A3032 /* Sources */,
+				1F59EF53242DF6F2004A3032 /* Frameworks */,
+				1F59EF54242DF6F2004A3032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F59EF58242DF6F2004A3032 /* PBXTargetDependency */,
+			);
+			name = PhotoCellsTests;
+			productName = PhotoCellsTests;
+			productReference = 1F59EF56242DF6F2004A3032 /* PhotoCellsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F59EF60242DF6F2004A3032 /* PhotoCellsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F59EF70242DF6F2004A3032 /* Build configuration list for PBXNativeTarget "PhotoCellsUITests" */;
+			buildPhases = (
+				A884B63709D8046288F93197 /* [CP] Check Pods Manifest.lock */,
+				1F59EF5D242DF6F2004A3032 /* Sources */,
+				1F59EF5E242DF6F2004A3032 /* Frameworks */,
+				1F59EF5F242DF6F2004A3032 /* Resources */,
+				F1B7CDD9DF9C85C64F98AB9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F59EF63242DF6F2004A3032 /* PBXTargetDependency */,
+			);
+			name = PhotoCellsUITests;
+			productName = PhotoCellsUITests;
+			productReference = 1F59EF61242DF6F2004A3032 /* PhotoCellsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F59EF38242DF6F1004A3032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = PSC;
+				TargetAttributes = {
+					1F59EF3F242DF6F1004A3032 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1F59EF55242DF6F2004A3032 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1F59EF3F242DF6F1004A3032;
+					};
+					1F59EF60242DF6F2004A3032 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1F59EF3F242DF6F1004A3032;
+					};
+				};
+			};
+			buildConfigurationList = 1F59EF3B242DF6F1004A3032 /* Build configuration list for PBXProject "PhotoCells" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F59EF37242DF6F1004A3032;
+			productRefGroup = 1F59EF41242DF6F1004A3032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F59EF3F242DF6F1004A3032 /* PhotoCells */,
+				1F59EF55242DF6F2004A3032 /* PhotoCellsTests */,
+				1F59EF60242DF6F2004A3032 /* PhotoCellsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F59EF3E242DF6F1004A3032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F59EF50242DF6F1004A3032 /* LaunchScreen.storyboard in Resources */,
+				1F59EF4D242DF6F1004A3032 /* Assets.xcassets in Resources */,
+				1F59EF4B242DF6F1004A3032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F59EF54242DF6F2004A3032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F59EF5F242DF6F2004A3032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FC40A123EDD2B22BBD013E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoCells-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94045FA690FFB184392E7DE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoCellsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A884B63709D8046288F93197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoCells-PhotoCellsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5EB7E0155D9D4529359E50B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoCells/Pods-PhotoCells-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoCells/Pods-PhotoCells-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoCells/Pods-PhotoCells-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B7CDD9DF9C85C64F98AB9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoCells-PhotoCellsUITests/Pods-PhotoCells-PhotoCellsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoCells-PhotoCellsUITests/Pods-PhotoCells-PhotoCellsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoCells-PhotoCellsUITests/Pods-PhotoCells-PhotoCellsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F59EF3C242DF6F1004A3032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F59EF48242DF6F1004A3032 /* ViewController.swift in Sources */,
+				1F59EF44242DF6F1004A3032 /* AppDelegate.swift in Sources */,
+				1F59EF46242DF6F1004A3032 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F59EF52242DF6F2004A3032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F59EF5B242DF6F2004A3032 /* PhotoCellsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F59EF5D242DF6F2004A3032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F59EF66242DF6F2004A3032 /* PhotoCellsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F59EF58242DF6F2004A3032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F59EF3F242DF6F1004A3032 /* PhotoCells */;
+			targetProxy = 1F59EF57242DF6F2004A3032 /* PBXContainerItemProxy */;
+		};
+		1F59EF63242DF6F2004A3032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F59EF3F242DF6F1004A3032 /* PhotoCells */;
+			targetProxy = 1F59EF62242DF6F2004A3032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F59EF49242DF6F1004A3032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F59EF4A242DF6F1004A3032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F59EF4E242DF6F1004A3032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F59EF4F242DF6F1004A3032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F59EF68242DF6F2004A3032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F59EF69242DF6F2004A3032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F59EF6B242DF6F2004A3032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF20A4E2680C75A558198927 /* Pods-PhotoCells.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoCells/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.PhotoCells;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F59EF6C242DF6F2004A3032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A9010979E4EA4F69E40204 /* Pods-PhotoCells.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoCells/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.PhotoCells;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F59EF6E242DF6F2004A3032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A1B6FC8761A1BBEB33C84A /* Pods-PhotoCellsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoCellsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.PhotoCellsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoCells.app/PhotoCells";
+			};
+			name = Debug;
+		};
+		1F59EF6F242DF6F2004A3032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0127A3A0CC714678603902 /* Pods-PhotoCellsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoCellsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.PhotoCellsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoCells.app/PhotoCells";
+			};
+			name = Release;
+		};
+		1F59EF71242DF6F2004A3032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B770C4C83569FDC5E6C3BE9E /* Pods-PhotoCells-PhotoCellsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoCellsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.PhotoCellsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoCells;
+			};
+			name = Debug;
+		};
+		1F59EF72242DF6F2004A3032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFF10C2D6D3BD2F3B2273EC /* Pods-PhotoCells-PhotoCellsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoCellsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.PhotoCellsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoCells;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F59EF3B242DF6F1004A3032 /* Build configuration list for PBXProject "PhotoCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F59EF68242DF6F2004A3032 /* Debug */,
+				1F59EF69242DF6F2004A3032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F59EF6A242DF6F2004A3032 /* Build configuration list for PBXNativeTarget "PhotoCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F59EF6B242DF6F2004A3032 /* Debug */,
+				1F59EF6C242DF6F2004A3032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F59EF6D242DF6F2004A3032 /* Build configuration list for PBXNativeTarget "PhotoCellsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F59EF6E242DF6F2004A3032 /* Debug */,
+				1F59EF6F242DF6F2004A3032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F59EF70242DF6F2004A3032 /* Build configuration list for PBXNativeTarget "PhotoCellsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F59EF71242DF6F2004A3032 /* Debug */,
+				1F59EF72242DF6F2004A3032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F59EF38242DF6F1004A3032 /* Project object */;
+}
