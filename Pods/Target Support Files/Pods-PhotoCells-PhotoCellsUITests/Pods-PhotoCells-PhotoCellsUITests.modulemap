@@ -1,6 +1,0 @@
-framework module Pods_PhotoCells_PhotoCellsUITests {
-  umbrella header "Pods-PhotoCells-PhotoCellsUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
