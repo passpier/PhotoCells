@@ -46,4 +46,15 @@ class AsyncImage {
             }
         }
     }
+   
+    func cancelDownload() {
+        if isDownloading {
+            imageDownloader.cancel()
+            isDownloading = false
+        }
+    }
+    
+    deinit {
+        print("\(url) AsyncImage deinitialized")
+    }
 }

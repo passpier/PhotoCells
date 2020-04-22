@@ -77,5 +77,6 @@ class PhotoCell: UICollectionViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         viewModel?.asyncImage.completeDownload = nil
+        viewModel?.asyncImage.cancelDownload()
     }
 }

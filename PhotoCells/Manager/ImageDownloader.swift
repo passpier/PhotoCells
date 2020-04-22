@@ -10,14 +10,23 @@ import Foundation
 import UIKit
 
 class ImageDownloader {
+    var downloadTask: URLSessionDataTask?
     
     func download(url: URL, completion: @escaping (UIImage?, URLResponse?, Error?) -> ()) {
-        URLSession.shared.dataTask(with: url) { data, response, error in
+        downloadTask = URLSession.shared.dataTask(with: url) { data, response, error in
             if let data = data {
                 completion(UIImage(data: data), response, error)
             } else {
                 completion(nil, response, error)
             }
-        }.resume()
+        }
+        downloadTask?.resume();
+    }
+    
+    func cancel() {
+        guard let task = downloadTask else {
+            return
+        }
+        task.cancel()
     }
 }

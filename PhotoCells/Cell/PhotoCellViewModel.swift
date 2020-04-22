@@ -8,15 +8,10 @@
 
 import Foundation
 
-class PhotoCellViewModel {
+struct PhotoCellViewModel {
     
     let id: String
     let title: String
     let asyncImage: AsyncImage
     
-    init(id: String, title: String, asyncImage: AsyncImage) {
-        self.id = id
-        self.title = title
-        self.asyncImage = asyncImage
-    }
 }
